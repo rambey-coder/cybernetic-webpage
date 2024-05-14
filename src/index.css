@@ -155,3 +155,10 @@ a:hover {
   padding: 20px;
   width: 300px;
 }
+
+@media (max-width: 655px) {
+  .card {
+    width: 260px;
+  } 
+  
+}

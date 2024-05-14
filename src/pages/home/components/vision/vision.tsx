@@ -9,7 +9,7 @@ export const Vision = () => {
         backgroundSize: "30%",
       }}
       className="py-20">
-      <div className="container flex-col md:flex-row flex items-center justify-around ">
+      <div className="container flex-col md:flex-row flex items-center justify-around gap-8 md:gap-0">
         <div className="md:w-[40%] w-full text-center">
           <div className="icon_bg mx-auto">
             <img src="/assets/vision.svg" alt="" />
@@ -28,7 +28,7 @@ export const Vision = () => {
           </p>
         </div>
 
-        <div className="w-[1px] h-[100px] bg-[#858585]"></div>
+        <div className="md:w-[1px] md:h-[100px] w-full h-[1px] bg-[#858585]"></div>
 
         <div className="md:w-[40%] w-full text-center">
           <div className="icon_bg mx-auto">

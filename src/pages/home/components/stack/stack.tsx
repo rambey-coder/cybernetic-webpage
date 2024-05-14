@@ -30,6 +30,17 @@ export const Stack = () => {
               gap: 5,
               autoplay: true,
               interval: 4000,
+              breakpoints: {
+                1024: {
+                  perPage: 4,
+                },
+                768: {
+                  perPage: 3,
+                },
+                480: {
+                  perPage: 1,
+                },
+              },
             }}>
             <SplideSlide>
               <div className="stack_card_container">

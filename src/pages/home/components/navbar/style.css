@@ -1,0 +1,29 @@
+
+
+@media (max-width: 541px) {
+    .nav_details {
+        background: #27CBFF;
+        padding: 30px;
+        gap: 3rem;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        right: 0;
+        left: 0;
+        top: -7000px;
+        transition: all 0.3s ease;
+        height: 20rem;
+        z-index: 99;
+    }
+
+    .show_menu {
+        top: 70px;
+    }
+
+    .nav_details a {
+        color: #fff;
+    }
+    
+}
