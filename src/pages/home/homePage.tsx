@@ -6,6 +6,7 @@ import { Section } from "./components/section/section";
 import { Vision } from "./components/vision/vision";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Stack } from "./components/stack/stack";
 
 export const HomePage = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ export const HomePage = () => {
       <Section />
       <About />
       <Vision />
+      <Stack />
     </div>
   );
 };
