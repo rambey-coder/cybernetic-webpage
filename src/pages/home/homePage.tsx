@@ -1,3 +1,4 @@
+import { About } from "./components/about/about";
 import { Hero } from "./components/heroSection/hero";
 import { Navbar } from "./components/navbar/navbar";
 import { Section } from "./components/section/section";
@@ -8,6 +9,7 @@ export const HomePage = () => {
       <Navbar />
       <Hero />
       <Section />
+      <About />
     </div>
   );
 };

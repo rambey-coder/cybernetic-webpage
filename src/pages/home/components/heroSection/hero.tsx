@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <div className="bg-[#DEEFF0]">
-      <div className="container flex-col md:flex-row flex items-center justify-between gap-[5rem]">
+      <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
         <div className="md:w-[45%] w-[100%]">
           <h1 className="text-[40px]">
             Empowering Your business with data science and AI technology{" "}
