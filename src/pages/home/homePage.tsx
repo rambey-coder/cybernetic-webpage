@@ -7,6 +7,7 @@ import { Vision } from "./components/vision/vision";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Stack } from "./components/stack/stack";
+import { Service } from "./components/services/service";
 
 export const HomePage = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ export const HomePage = () => {
       <About />
       <Vision />
       <Stack />
+      <Service />
     </div>
   );
 };
