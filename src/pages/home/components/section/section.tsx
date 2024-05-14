@@ -15,7 +15,7 @@ export const Section = () => {
             can drive success and innovation across diverse sectors.
           </h6>
 
-          <div className="mt-8 grid md:grid-cols-2 grid-cols-1 gap-6">
+          <div className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-6">
             <div>
               <div className="icon_bg mb-4">
                 <img src="/assets/health.svg" alt="" />
