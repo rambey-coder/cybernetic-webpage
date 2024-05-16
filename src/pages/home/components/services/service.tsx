@@ -9,7 +9,7 @@ export const Service = () => {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-12">
-          <div className="card">
+          <div data-aos="flip-right" className="card">
             <div className="icon_bg">
               <img src="/assets/management.svg" alt="" />
             </div>
@@ -20,7 +20,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="flip-left" className="card">
             <div className="icon_bg">
               <img src="/assets/engineering.svg" alt="" />
             </div>
@@ -32,7 +32,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="fade-down-right" className="card">
             <div className="icon_bg">
               <img src="/assets/intelligence.svg" alt="" />
             </div>
@@ -43,7 +43,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="fade-right" className="card">
             <div className="icon_bg">
               <img src="/assets/software.svg" alt="" />
             </div>
@@ -54,7 +54,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="fade-down" className="card">
             <div className="icon_bg">
               <img src="/assets/computing.svg" alt="" />
             </div>
@@ -65,7 +65,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="flip-down" className="card">
             <div className="icon_bg">
               <img src="/assets/architecture.svg" alt="" />
             </div>
@@ -76,7 +76,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="zoom-in" className="card">
             <div className="icon_bg">
               <img src="/assets/quality.svg" alt="" />
             </div>
@@ -87,7 +87,7 @@ export const Service = () => {
             </p>
           </div>
 
-          <div className="card">
+          <div data-aos="zoom-out-left" className="card">
             <div className="icon_bg">
               <img src="/assets/science.svg" alt="" />
             </div>

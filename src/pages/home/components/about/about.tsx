@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div className="bg-[#DEEFF0] py-10">
       <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
-        <div className="md:w-[50%] w-[100%]">
+        <div className="md:w-[50%] w-[100%]" data-aos="flip-right">
           <h1 className="font-bold text-[30px] mb-4">About Us</h1>
           <p className="mb-4">
             Cybernetic Business Group is a pioneering technology-agnostic
@@ -20,7 +20,7 @@ export const About = () => {
           </p>
         </div>
 
-        <div className="md:w-[40%] w-[100%]">
+        <div className="md:w-[40%] w-[100%]" data-aos="zoom-out">
           <img src="/assets/abt.png" alt="" className="w-full" />
         </div>
       </div>

@@ -16,7 +16,7 @@ export const Section = () => {
           </h6>
 
           <div className="mt-8 grid lg:grid-cols-2 grid-cols-1 gap-6">
-            <div>
+            <div data-aos="fade-right">
               <div className="icon_bg mb-4">
                 <img src="/assets/health.svg" alt="" />
               </div>
@@ -28,7 +28,7 @@ export const Section = () => {
                 advanced analytics.
               </p>
             </div>
-            <div>
+            <div data-aos="fade-down">
               <div className="icon_bg mb-4">
                 <img src="/assets/finance.svg" alt="" />
               </div>
@@ -40,7 +40,7 @@ export const Section = () => {
                 their data's full potential.
               </p>
             </div>
-            <div>
+            <div data-aos="fade-right">
               <div className="icon_bg mb-4">
                 <img src="/assets/telecom.svg" alt="" />
               </div>
@@ -53,7 +53,7 @@ export const Section = () => {
                 AI.
               </p>
             </div>
-            <div>
+            <div data-aos="fade-left">
               <div className="icon_bg mb-4">
                 <img src="/assets/estate.svg" alt="" />
               </div>

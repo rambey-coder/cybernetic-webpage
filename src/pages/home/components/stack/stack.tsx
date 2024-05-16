@@ -26,6 +26,7 @@ export const Stack = () => {
           <Splide
             aria-label="stack"
             options={{
+              type: "loop",
               perPage: 6,
               gap: 5,
               autoplay: true,
