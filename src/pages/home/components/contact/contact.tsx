@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="bg-[#DEEFF0] py-12">
+    <div className="bg-[#a3cef1] py-12" id="contact">
       <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
         <div className="md:w-[40%] w-[100%]" data-aos="fade-left">
           <img src="/assets/contact.png" alt="" className="w-full" />

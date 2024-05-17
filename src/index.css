@@ -35,7 +35,7 @@ h1 {
   /* font-size: 3.2em; */
   line-height: 1.2;
   font-weight: 700;
-  color: #26b7b5;
+  color: #0d47a1;
   margin: 0;
   padding: 0;
 }
@@ -60,7 +60,7 @@ h5 {
 
 p {
   font-size: 15px;
-  color: #898784;
+  color: #fff;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -76,11 +76,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: 1px solid #e5e5e5;
+  outline: 1px solid #0d47a1;
 }
 
 .button {
-  background-color: #26b7b5;
+  background-color: #0d47a1;
   color: #fff;
   padding: 10px 20px;
   border-radius: 50px;
@@ -89,18 +89,18 @@ p {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: "Inter", sans-serif;
-  outline: 1px solid #26b7b5;
+  outline: 1px solid #0d47a1;
   border: 0;
 }
 
 .button:hover {
   background-color: transparent;
-  color: #26b7b5;
+  color: #0d47a1;
 }
 
 a {
   text-decoration: none;
-  color: #898784;
+  color: #ffffff;
   /* color: #26b7b5; */
   font-weight: 500;
 }
@@ -156,6 +156,10 @@ a:hover {
   padding: 20px;
   width: 300px;
   margin: auto;
+}
+
+.card p {
+  color: #7A756E;
 }
 
 @media (max-width: 655px) {

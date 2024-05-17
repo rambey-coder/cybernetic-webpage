@@ -1,6 +1,6 @@
 export const Service = () => {
   return (
-    <div className="container">
+    <div className="container" id="service">
       <div className="py-10">
         <h1 className="text-[40px] text-center">Our Services</h1>
         <p className="mt-4 mb-8 text-center">

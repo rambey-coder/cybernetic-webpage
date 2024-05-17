@@ -17,13 +17,13 @@ export const Vision = () => {
             <img src="/assets/vision.svg" alt="" />
           </div>
           <h1 className="text-[25px] font-bold my-4 ">Vision</h1>
-          <p className="mb-4">
+          <p className="mb-4 text-[#7A756E]">
             We embrace AI as the cornerstone of our culture and solutions,
             enabling business to reach their goals and unlock value quicker than
             ever before.{" "}
           </p>
 
-          <p>
+          <p className="text-[#7A756E]">
             We are committed to providing next-generation solutions that
             leverage high-performant technology and advanced data analytics to
             empower organisations across industries{" "}
@@ -37,7 +37,7 @@ export const Vision = () => {
             <img src="/assets/mission.svg" alt="" />
           </div>
           <h1 className="text-[25px] font-bold my-4 ">Mission</h1>
-          <p className="mb-4">
+          <p className="mb-4 text-[#7A756E]">
             Our mission is to deliver world-class tech, software and data
             solutions that empower organizations to boldly challenge the status
             quo. We are committed to providing extraordinary value through
@@ -45,7 +45,7 @@ export const Vision = () => {
             industry standards
           </p>
 
-          <p>
+          <p className="text-[#7A756E]">
             We are dedicated to delivering world-class tech solutions that
             empowers organisations to challenge the status quo and drive
             innovation
