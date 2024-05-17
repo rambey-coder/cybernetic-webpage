@@ -20,9 +20,7 @@ export const Hero = () => {
           </div>
         </div>
       </div>
-      <div
-        className="container flex-col lg:flex-row flex items-center justify-between mt-[1.5rem]"
-        data-aos="fade-down">
+      <div className="container flex-col lg:flex-row flex items-center justify-between mt-[1.5rem]">
         <h6 className="mb-7 lg:mb-0 text-center md:text-left">
           Trusted by amazing companies all over the world
         </h6>
