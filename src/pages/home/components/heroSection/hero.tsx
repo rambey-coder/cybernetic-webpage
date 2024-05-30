@@ -19,19 +19,17 @@ export const Hero = () => {
             <img src="/assets/hero.png" alt="" className="w-full" />
           </div>
         </div>
+      </div>
 
-        <div
-          className="container flex-col lg:flex-row flex items-center justify-between mt-[1.5rem]"
-          data-aos="fade-down">
-          <h6 className="mb-7 lg:mb-0 text-center md:text-left">
-            Trusted by amazing companies all over the world
-          </h6>
+      <div className="container flex-col lg:flex-row flex items-center justify-between mt-[2rem]">
+        <h6 className="mb-7 lg:mb-0 text-center md:text-left">
+          Trusted by amazing companies all over the world
+        </h6>
 
-          <div className="flex flex-col md:flex-row items-center justify-between gap-[4rem]">
-            <img src="/assets/info.png" alt="" className="w-[100px]" />
-            <img src="/assets/liberty.png" alt="" className="w-[100px]" />
-            <img src="/assets/inter.png" alt="" className="w-[100px]" />
-          </div>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-[4rem]">
+          <img src="/assets/info.png" alt="" className="w-[100px]" />
+          <img src="/assets/liberty.png" alt="" className="w-[100px]" />
+          <img src="/assets/inter.png" alt="" className="w-[100px]" />
         </div>
       </div>
     </>
