@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
     <>
-      <div className="bg-[#a3cef1]" id="home">
+      <div className="bg-[#d3f1f0]" id="home">
         <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
           <div className="md:w-[45%] w-[100%]" data-aos="fade-right">
             <h1 className="lg:text-[40px] text-[34px] md:text-left text-center">

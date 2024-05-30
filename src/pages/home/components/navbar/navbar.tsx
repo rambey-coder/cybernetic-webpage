@@ -20,9 +20,10 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div className="bg-[#a3cef1]">
+    <div className="bg-[#d3f1f0]">
       <div className="container relative flex flex-row items-center justify-between">
-        <h1 className="text-[20px]">CYBERNETIC</h1>
+        {/* <h1 className="text-[20px]">CYBERNETIC</h1> */}
+        <img src="/assets/logo.png" width={"100px"} alt="" />
 
         <ul className={`flex gap-4 nav_details ${showMenu ? "show_menu" : ""}`}>
           <li>
@@ -32,7 +33,7 @@ export const Navbar = () => {
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#service">Service</a>
+            <a href="#service">Our Services</a>
           </li>
         </ul>
 
@@ -44,7 +45,7 @@ export const Navbar = () => {
             onClick={() => setShowMenu(!showMenu)}
           />
         ) : (
-          <button onClick={() => navigate('#contact')} className="button">
+          <button onClick={() => navigate("#contact")} className="button">
             Contact Us
           </button>
         )}
