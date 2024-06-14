@@ -45,6 +45,42 @@ export const Stack = () => {
             }}>
             <SplideSlide>
               <div className="stack_card_container">
+                <div className="stack_card overflow-hidden">
+                  <img
+                    src="/assets/sage.jpeg"
+                    alt="Image 1"
+                    style={{ objectFit: "cover", height: '100%' }}
+                  />
+                </div>
+                <h5>Amazon Sage Maker</h5>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="stack_card_container">
+                <div className="stack_card">
+                  <img src="/assets/openai.svg" alt="Image 1" />
+                </div>
+                <h5>Open AI</h5>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="stack_card_container">
+                <div className="stack_card">
+                  <img src="/assets/chatgpt.svg" alt="Image 1" />
+                </div>
+                <h5>Chat GPT</h5>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="stack_card_container">
+                <div className="stack_card">
+                  <img src="/assets/kensor.png" alt="Image 1" />
+                </div>
+                <h5>Keras + Tensor Flow</h5>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="stack_card_container">
                 <div className="stack_card">
                   <img src="/assets/oracle.svg" alt="Image 1" />
                 </div>

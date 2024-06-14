@@ -5,13 +5,24 @@ export const Hero = () => {
         <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
           <div className="md:w-[45%] w-[100%]" data-aos="fade-right">
             <h1 className="lg:text-[40px] text-[34px] md:text-left text-center">
-              Empowering Your business with data science and AI technology{" "}
+              Transform Your Business with our Cutting-Edge Augmented
+              Data-Driven Solutions.
             </h1>
             <p className="md:my-[1rem] my-8">
-              Experience the Power of Tailored Technology Solutions and Data
-              Expertise to Propel Your Business Forward. We integrate up-to-date
-              global data, advanced analytic solution{" "}
+              Are you ready to transform your business and elevate your revenue
+              to new heights? You've come to the right place.
+              <br /> <br />
+              At Cybernetic Business Group, we enable companies to achieve
+              exponential growth by unlocking the full potential of their data
+              assets. We help monetize these assets, increase revenue, reduce
+              operational costs, and achieve unparalleled operational
+              efficiency.
+              <br /> <br />
+              We are more than just a data analytics and software solutions
+              company. We are pioneers in harnessing the power of Artificial
+              Intelligence (AI) to
             </p>
+            <p className="md:my-[1rem] my-8 text-center font-bold">Cybernetic Business Group: Your AI-First Data Specialist Partner </p>
             <button className="button">Contact Us</button>
           </div>
 

@@ -9,9 +9,10 @@ export const Contact = () => {
         <div className="md:w-[45%] w-[100%]" data-aos="fade-right">
           <h1 className="text-[40px]">Contact Us</h1>
           <p className="my-[1.5rem]">
-            Explore Innovative IT Solutions with Cybernetic Business Group.
-            Reach out for inquiries, collaborations, or customized services.
-            Your path to cutting-edge technology begins here.
+            Discover the future of business with our AI-driven Data and Software
+            Solutions. For inquiries, collaborations, or tailored services,
+            connect with us today. Your journey to unparalleled success starts
+            here.
           </p>
           <hr className="border-[#0d47a1]" />
           <div className="my-7 flex flex-col gap-3">

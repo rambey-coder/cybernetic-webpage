@@ -4,24 +4,27 @@ export const About = () => {
       <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
         <div className="md:w-[50%] w-[100%]" data-aos="flip-right">
           <h1 className="font-bold text-[30px] mb-4">About Us</h1>
-          <p className="mb-4">
-            Cybernetic Business Group is a pioneering technology-agnostic
-            solutions company, operating as a fully remote entity. Our
-            unwavering commitment to innovation, client-centricity, and data
-            integrity defines our mission. We offer extensive industry expertise
-            drawn from a wealth of experience across various domains, setting
-            standards and upholding best practices in all our endeavours.
+          <p>
+            At Cybernetic Business Group, we believe in the revolutionary
+            potential of AI. By placing AI at the forefront of our culture and
+            solutions, we enable businesses to reach their goals and unlock
+            value faster than ever before. Our AI-first approach ensures that
+            every solution we provide is innovative, efficient, and tailored to
+            the unique needs of our clients.
           </p>
 
-          <p>
-            Our profound understanding of technology serves as a catalyst, but
-            our primary focus lies in crafting tailored software and data
-            solutions that grant businesses a decisive competitive edge.
+          <p className="my-4">
+            Join us on a journey to leverage cutting-edge technology and
+            data-driven insights to transform your business. With Cybernetic
+            Business Group, you are partnering with a leader dedicated to
+            driving success and innovation in your industry
           </p>
+
+          <p className="text-center font-bold">AI?... Yes, We Can!!!</p>
         </div>
 
         <div className="md:w-[40%] w-[100%]" data-aos="zoom-out">
-          <img src="/assets/abt.png" alt="" className="w-full" />
+          <img src="/assets/abt.jpg" alt="" className="w-full rounded-md" />
         </div>
       </div>
     </div>
