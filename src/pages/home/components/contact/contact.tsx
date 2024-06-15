@@ -1,9 +1,9 @@
 export const Contact = () => {
   return (
     <div className="bg-[#d3f1f0] py-12" id="contact">
-      <div className="container flex-col md:flex-row flex items-center justify-between gap-[3rem]">
+      <div className="container flex-col md:flex-row flex items-stretch justify-between gap-[3rem]">
         <div className="md:w-[40%] w-[100%]" data-aos="fade-left">
-          <img src="/assets/contact.png" alt="" className="w-full" />
+          <img src="/assets/contact.JPG" alt="" className="w-full" />
         </div>
 
         <div className="md:w-[45%] w-[100%]" data-aos="fade-right">
